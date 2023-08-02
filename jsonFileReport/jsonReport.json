@@ -1,0 +1,272 @@
+{
+  "config": {
+    "configFile": "D:\\Playwright_Automation\\playwright.config.ts",
+    "rootDir": "D:/Playwright_Automation",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1,
+      "totalTime": 17714.924000002444
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonFileReport/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/Playwright_Automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "D:/Playwright_Automation",
+        "testIgnore": [],
+        "testMatch": [
+          "pomtest/OrderItems.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.36.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "pomtest\\OrderItems.test.ts",
+      "file": "pomtest/OrderItems.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Page Object model - Saucedemo website",
+          "file": "pomtest/OrderItems.test.ts",
+          "line": 12,
+          "column": 15,
+          "specs": [
+            {
+              "title": "Login to saucedemo website",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 2488,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-08-01T16:13:41.212Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Playwright_Automation\\test-results\\pomtest-OrderItems-Page-Object-model---Saucedemo-website-Login-to-saucedemo-website\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "716aae3490dd30c25971-e6443debdab86d4ba888",
+              "file": "pomtest/OrderItems.test.ts",
+              "line": 15,
+              "column": 9
+            },
+            {
+              "title": "Add to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 6632,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-08-01T16:13:44.955Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Playwright_Automation\\test-results\\pomtest-OrderItems-Page-Object-model---Saucedemo-website-Add-to-cart\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "716aae3490dd30c25971-0e414e66dd0116682605",
+              "file": "pomtest/OrderItems.test.ts",
+              "line": 28,
+              "column": 10
+            },
+            {
+              "title": "user information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 2157,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-08-01T16:13:51.591Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Playwright_Automation\\test-results\\pomtest-OrderItems-Page-Object-model---Saucedemo-website-user-information\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "716aae3490dd30c25971-0d4165ba0473b91925fb",
+              "file": "pomtest/OrderItems.test.ts",
+              "line": 41,
+              "column": 10
+            },
+            {
+              "title": "Checkout Overview",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1931,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-08-01T16:13:53.750Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Playwright_Automation\\test-results\\pomtest-OrderItems-Page-Object-model---Saucedemo-website-Checkout-Overview\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "716aae3490dd30c25971-b1287fbb1b9f6b80482b",
+              "file": "pomtest/OrderItems.test.ts",
+              "line": 54,
+              "column": 10
+            },
+            {
+              "title": "Logout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 2415,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-08-01T16:13:55.684Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Playwright_Automation\\test-results\\pomtest-OrderItems-Page-Object-model---Saucedemo-website-Logout\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "716aae3490dd30c25971-d74f3cad243168d51625",
+              "file": "pomtest/OrderItems.test.ts",
+              "line": 66,
+              "column": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
