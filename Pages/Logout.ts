@@ -7,16 +7,10 @@ export default class Logout{
     }
 
     async ClickOption(){
-
         await this.page.click("#react-burger-menu-btn")
-        
     }
-
 
     async logoutBtn(){
-
         await this.page.click("#logout_sidebar_link")
-
     }
-
 }

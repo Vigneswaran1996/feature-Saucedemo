@@ -1,35 +1,27 @@
-import { Page } from "@playwright/test"
+import { Page, expect } from "@playwright/test"
 
-export default class YourInfoPage{
+export default class YourInfoPage {
 
-    constructor(public page:Page){
+    constructor(public page: Page) {
 
     }
 
-    async enterFirstName(infofirstname: string){
-
-        await this.page.locator("#first-name")
-        .fill(infofirstname);
-        
+    async enterFirstName(infofirstname: string) {
+        await this.page.locator("#first-name").isVisible();
+        await this.page.locator("#first-name").fill(infofirstname);
     }
 
-    async enterLastName(infolastname: string){
-
-        await this.page.locator("#last-name")
-        .type(infolastname);
-        
+    async enterLastName(infolastname: string) {
+        await this.page.locator("#last-name").isVisible();
+        await this.page.locator("#last-name").type(infolastname);
     }
 
-    async postalCode(inpostalcode: string){
-
-        await this.page.locator("#postal-code")
-        .type(inpostalcode);
-        
+    async postalCode(infopostalcode: string) {
+        await this.page.locator("#postal-code").isVisible();
+        await this.page.locator("#postal-code").type(infopostalcode);
     }
 
-
-    async continueBtn(){
-
+    async continueBtn() {
         await this.page.click("input[value='Continue']")
     }
 

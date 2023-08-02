@@ -13,7 +13,7 @@ test.describe.serial("Page Object model - Saucedemo website",async() => {
 
     
     /**
-     * This test case will be execution of login to sauce demo website
+     * This test case will be execution of login to sauce demo website.
      * 
      */
     test("Login to saucedemo website",async ({page, baseURL}) => {

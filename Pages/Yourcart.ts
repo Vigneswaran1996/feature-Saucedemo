@@ -7,9 +7,7 @@ export default class YourCart{
     }
 
     async yourCart(){
-
         await this.page.click("#checkout")
-
     }
 
 }   

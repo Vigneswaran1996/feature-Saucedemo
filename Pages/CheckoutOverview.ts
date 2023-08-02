@@ -7,16 +7,11 @@ export default class CheckoutOverviewPage{
     }
 
     async ClickFininsh(){
-
         await this.page.click("#finish")
-        
     }
 
-
     async BackToHome(){
-
         await this.page.click("#checkout_complete_container")
-
     }
 
 }

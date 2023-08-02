@@ -12,7 +12,7 @@
     "maxFailures": 0,
     "metadata": {
       "actualWorkers": 1,
-      "totalTime": 17714.924000002444
+      "totalTime": 15866.217000000179
     },
     "preserveOutput": "always",
     "reporter": [
@@ -88,12 +88,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 2488,
+                      "duration": 1997,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-08-01T16:13:41.212Z",
+                      "startTime": "2023-08-02T17:21:23.917Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -108,7 +108,7 @@
               ],
               "id": "716aae3490dd30c25971-e6443debdab86d4ba888",
               "file": "pomtest/OrderItems.test.ts",
-              "line": 15,
+              "line": 19,
               "column": 9
             },
             {
@@ -126,12 +126,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 6632,
+                      "duration": 5816,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-08-01T16:13:44.955Z",
+                      "startTime": "2023-08-02T17:21:26.924Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -146,7 +146,7 @@
               ],
               "id": "716aae3490dd30c25971-0e414e66dd0116682605",
               "file": "pomtest/OrderItems.test.ts",
-              "line": 28,
+              "line": 35,
               "column": 10
             },
             {
@@ -164,12 +164,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 2157,
+                      "duration": 2285,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-08-01T16:13:51.591Z",
+                      "startTime": "2023-08-02T17:21:32.743Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -184,7 +184,7 @@
               ],
               "id": "716aae3490dd30c25971-0d4165ba0473b91925fb",
               "file": "pomtest/OrderItems.test.ts",
-              "line": 41,
+              "line": 51,
               "column": 10
             },
             {
@@ -202,12 +202,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1931,
+                      "duration": 1749,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-08-01T16:13:53.750Z",
+                      "startTime": "2023-08-02T17:21:35.030Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -222,7 +222,7 @@
               ],
               "id": "716aae3490dd30c25971-b1287fbb1b9f6b80482b",
               "file": "pomtest/OrderItems.test.ts",
-              "line": 54,
+              "line": 67,
               "column": 10
             },
             {
@@ -240,12 +240,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 2415,
+                      "duration": 2254,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-08-01T16:13:55.684Z",
+                      "startTime": "2023-08-02T17:21:36.782Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -260,7 +260,7 @@
               ],
               "id": "716aae3490dd30c25971-d74f3cad243168d51625",
               "file": "pomtest/OrderItems.test.ts",
-              "line": 66,
+              "line": 81,
               "column": 10
             }
           ]
