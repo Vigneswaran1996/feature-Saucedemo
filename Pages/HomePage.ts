@@ -15,4 +15,6 @@ export default class HomePage{
         await  this.page.click("//a[@class='shopping_cart_link']");
     }
 
+
+
 }    

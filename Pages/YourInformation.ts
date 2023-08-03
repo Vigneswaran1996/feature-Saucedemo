@@ -25,4 +25,5 @@ export default class YourInfoPage {
         await this.page.click("input[value='Continue']")
     }
 
+    
 }

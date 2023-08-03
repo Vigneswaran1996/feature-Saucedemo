@@ -27,8 +27,6 @@ export default class LoginPage {
             await this.page.click("input[value='Login']")
         ])
 
-
-
     }
 
 }

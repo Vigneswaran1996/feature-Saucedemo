@@ -2,6 +2,7 @@ import { Page } from "@playwright/test"
 
 export default class CheckoutOverviewPage{
 
+    
     constructor(public page:Page){
 
     }

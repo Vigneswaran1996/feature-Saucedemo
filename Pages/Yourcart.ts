@@ -10,4 +10,5 @@ export default class YourCart{
         await this.page.click("#checkout")
     }
 
+
 }   
